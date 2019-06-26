@@ -7,4 +7,8 @@
 	<h2>{% block subtitle %} {% endblock subtitle %}</h2>
 	{% block content %} {% endblock content %}
 </body>
+    <nav>
+        <a id="update_donation" href="{{ url_for('update_donations') }}">Update Donation</a>
+        <a id="home" href="{{ url_for('home') }}">Return Home</a>
+    </nav>
 </html>
